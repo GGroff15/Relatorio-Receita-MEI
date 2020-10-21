@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RelatÃ³rio Mensal das Receitas Brutas</title>
+
+    <style>
+      body {
+        width: 484.1pt;
+        height: 100%;
+        font-family: "Times New Roman", Times, serif;
+
+        border: 2px solid black;
+      }
+
+      h1,
+      h2 {
+        font-weight: bold;
+        margin: 0;
+
+        background-color: #e7e6e6;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 14.8px;
+        padding: 6pt 0 3pt 0;
+      }
+
+      h2 {
+        font-size: 12px;
+        padding: 6pt 0 6pt 0;
+      }
+
+      p {
+        display: inline;
+        font-size: 14.5px;
+        margin-left: 5px;
+      }
+
+      hr {
+        border: 1px solid black;
+        margin: 6pt 0 6pt 0;
+      }
+
+      hr.vertical {
+        border: 1px solid black;
+        display: inline-block;
+        margin: 0;
+      }
+
+      .sem-margem-top {
+        margin-top: 0;
+      }
+
+      .sem-margem-bottom {
+        margin-bottom: 0;
+      }
+
+      .titulo {
+        width: 100%;
+      }
+
+      .dados {
+        display: flex;
+      }
+
+      .coluna-esquerda {
+        width: 336.7pt;
+      }
+
+      .coluna-direita {
+        width: 147.5pt;
+      }
+
+      .rodape {
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cabecalho">
+      <h1 class="titulo">RELATÃ“RIO MENSAL DAS RECEITAS BRUTAS</h1>
+      <hr class="sem-margem-top" />
+      <p>CNPJ:</p>
+      <p><span>$cnpj</span></p>
+      <br />
+      <hr />
+      <p>Empreendedor individual:</p>
+      <p><span>$nome</span></p>
+      <br />
+      <hr />
+      <p>Periodo de apuraÃ§Ã£o:</p>
+      <p><span>$periodo</span></p>
+      <br />
+      <hr class="sem-margem-bottom" />
+    </div>
+
+    <div>
+      <h2 class="titulo">
+        RECEITA BRUTA MENSAL â€“ REVENDA DE MERCADORIAS (COMÃ‰RCIO)
+      </h2>
+
+      <div class="dados">
+        <div class="coluna-esquerda">
+          <hr class="sem-margem-top" />
+          <p>
+            I â€“ Revenda de mercadorias com dispensa de emissÃ£o de documento
+            fiscal
+          </p>
+          <br />
+          <hr />
+          <p>II â€“ Revenda de mercadorias com documento fiscal emitido</p>
+          <br />
+          <hr />
+          <p>III â€“ Total das receitas com revenda de mercadorias (I + II)</p>
+          <br />
+          <hr class="sem-margem-bottom" />
+        </div>
+
+        <hr class="vertical" />
+
+        <div class="coluna-direita">
+          <hr class="sem-margem-top" />
+          <p><span>$I</span></p>
+          <br />
+          <hr />
+          <p><span>$II</span></p>
+          <br />
+          <hr />
+          <p><span>$III</span></p>
+          <br />
+          <hr class="sem-margem-bottom" />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="titulo">
+        RECEITA BRUTA MENSAL â€“ VENDA DE PRODUTOS INDUSTRIALIZADOS (INDÃšSTRIA)
+      </h2>
+
+      <div class="dados">
+        <div class="coluna-esquerda">
+          <hr class="sem-margem-top" />
+          <p>
+            IV â€“ Venda de produtos industrializados com dispensa de emissÃ£o de
+            documento fiscal
+          </p>
+          <br />
+          <hr />
+          <p>
+            V â€“ Venda de produtos industrializados com documento fiscal emitido
+          </p>
+          <br />
+          <hr />
+          <p>
+            VI â€“ Total das receitas com venda de produtos industrializados (IV +
+            V)
+          </p>
+          <br />
+          <hr class="sem-margem-bottom" />
+        </div>
+
+        <hr class="vertical" />
+
+        <div class="coluna-direita">
+          <hr class="sem-margem-top" />
+          <p><span>$IV</span></p>
+          <br />
+          <br />
+          <hr />
+          <p><span>$V</span></p>
+          <br />
+          <hr />
+          <p><span>$VI</span></p>
+          <br />
+          <hr class="sem-margem-bottom" />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="titulo">RECEITA BRUTA MENSAL â€“ PRESTAÃ‡ÃƒO DE SERVIÃ‡OS</h2>
+      <div class="dados">
+        <div class="coluna-esquerda">
+          <hr class="sem-margem-top" />
+          <p>
+            VII â€“ Receita com prestaÃ§Ã£o de serviÃ§os com dispensa de emissÃ£o de
+            documento fiscal
+          </p>
+          <br />
+          <hr />
+          <p>
+            VIII â€“ Receita com prestaÃ§Ã£o de serviÃ§os com documento fiscal
+            emitido
+          </p>
+          <br />
+          <hr />
+          <p>IX â€“ Total das receitas com prestaÃ§Ã£o de serviÃ§os (VII + VIII)</p>
+          <br />
+          <hr />
+        </div>
+
+        <hr class="vertical" />
+
+        <div class="coluna-direita">
+          <hr class="sem-margem-top" />
+          <p><span>$VII</span></p>
+          <br />
+          <br />
+          <hr />
+          <p><span>$VIII</span></p>
+          <br />
+          <hr />
+          <p><span>$IX</span></p>
+          <br />
+          <hr />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="dados">
+        <div class="coluna-esquerda rodape">
+          <p>X - Total geral das receitas brutas no mÃªs (III + VI + IX)</p>
+          <br />
+          <hr />
+          <p>LOCAL E DATA:</p>
+          <br />
+          <br />
+          <p></p>
+          <br />
+          <hr class="sem-margem-bottom" />
+        </div>
+
+        <hr class="vertical" />
+
+        <div class="coluna-direita rodape">
+          <p><span>$X</span></p>
+          <br />
+          <hr />
+          <p>ASSINATURA DO EMPRESÃ�RIO:</p>
+          <br />
+          <br />
+          <hr class="sem-margem-bottom" />
+        </div>
+      </div>
+      <div class="sem-margem-top">
+        <p>ENCONTRAM-SE ANEXADOS E ESTE RELATÃ“RIO</p>
+        <br />
+        <p>
+          - Os documentos fiscais comprobatÃ³rios das entradas de mercadorias e
+          serviÃ§os tomados referentes ao perÃ­odo;
+        </p>
+        <br />
+        <p>
+          - As notas fiscais relativas Ã s operaÃ§Ãµes ou prestaÃ§Ãµes realizadas
+          eventualmente emitidas.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
